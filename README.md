@@ -2,7 +2,7 @@
 
 # Introduction
 XXTEA encryption algorithm library for Kotlin.
-Import from `[xxtea-java](https://github.com/xxtea/xxtea-java)` with `[version 1.0.5](https://github.com/xxtea/xxtea-java/tree/2c332d1f03eb62b829e9d3dab10318770e4b7d4c)`
+Imported from [xxtea-java](https://github.com/xxtea/xxtea-java) with [version 1.0.5](https://github.com/xxtea/xxtea-java/tree/2c332d1f03eb62b829e9d3dab10318770e4b7d4c)
 
 ## Usage
 First, copy coresponding platform source file to your project:
@@ -20,7 +20,7 @@ fun main() {
     // Returns null if decode from string to byte array fails
     val encryptData = XXTEA.encrypt(str, key) 
 
-    // Default encoding is UTF_8. To use other encoding:
+    // Default charset is UTF_8. To use other charsets:
     // val encryptData = XXTEA.encrypt(str, key, Charsets.US_ASCII)
     // val encryptData = XXTEA.encrypt(str, key, Charset.forName("GBK"))
     
